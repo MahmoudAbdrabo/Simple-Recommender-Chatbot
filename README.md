@@ -18,7 +18,8 @@ A simple yet effective chatbot that recommends books based on user preferences u
 
 - **Python** 
 - **Scikit-learn** (for similarity calculation)
-- **NLTK / SpaCy** (for basic NLP)
+- ** TF IDF **
+- **difflib**
 - **JSON** (for chatbot intents)
 - **Pandas, NumPy** (for data manipulation)
 - **Streamlit**
