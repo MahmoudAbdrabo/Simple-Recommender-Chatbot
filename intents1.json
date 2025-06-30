@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?"],
+      "responses": ["Hi ","Hey", "Hello!", "Good! How can I help you?", "Hello! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Thanks", "Goodbye", "Thank you", "See you"],
+      "responses": ["Goodbye!", "See you soon!", "Bye"]
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": ["I want a book", "Recommend me a book", "Suggest a book", "Recommend", "I want a book", "Recommend me a book", "دلني على كتاب كويس"],
+      "responses": ["Sure! Can you tell me the name of a book you like?"]
+    },
+    {
+      "tag": "ask_author",
+      "patterns": ["Who wrote this book?", "Who is the author of the book?", "who author the book"],
+      "responses": ["I'll find you the author's name. What's the name of the book?"]
+    },
+    {
+      "tag": "bestsellers",
+      "patterns": ["Best Books", "Best Sellers", "books everyone reads", "top books"],
+      "responses": ["Among the most famous books: Just a moment..."]
+    },
+    {
+      "tag": "ask_publish_year",
+      "patterns": ["When was the book published?", "Year of publication?", "When was the book released?", "What year was the book published?", "publication year"],
+      "responses": ["Sure! What is the name of the book you want to know the year it was published?"]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["I did not understand your question, could you please clarify your question?🙃"]
+    }
+  ]
+}
